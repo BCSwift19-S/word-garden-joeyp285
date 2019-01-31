@@ -47,6 +47,7 @@
                                         <connections>
                                             <action selector="doneKeyPressed:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Rd8-PU-l6f"/>
                                             <action selector="doneKeyPressed:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="hbA-6h-pTI"/>
+                                            <action selector="guessedLetterFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="S6A-qo-ZUI"/>
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzv-T2-qTH">

@@ -23,12 +23,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     func updateUIAfterGuess(){
         guessedLetterField.resignFirstResponder()
         guessedLetterField.text = ""
+    }
+    
+    @IBAction func guessedLetterFieldChanged(_ sender: UITextField) {
     }
     
     @IBAction func doneKeyPressed(_ sender: UITextField) {
