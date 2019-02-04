@@ -27,7 +27,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_ _ _ _ _" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDf-D8-m6K">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDf-D8-m6K">
                                 <rect key="frame" x="16" y="132" width="382" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -76,8 +76,9 @@
                                 <rect key="frame" x="20" y="336" width="374" height="560"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPF-9c-bqH">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPF-9c-bqH">
                                 <rect key="frame" x="139" y="186" width="132" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play Again"/>
                                 <connections>
                                     <action selector="playAgainButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Jw-gK-LkC"/>
@@ -92,14 +93,9 @@
                             <constraint firstItem="PmU-pG-7g4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5HI-QT-vkL"/>
                             <constraint firstItem="WMw-ca-qjR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7dS-a1-RWW"/>
                             <constraint firstItem="wcu-GC-HK1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="97R-ho-loF"/>
-                            <constraint firstItem="EPF-9c-bqH" firstAttribute="top" secondItem="WMw-ca-qjR" secondAttribute="bottom" constant="61" id="JA2-tC-ZXp"/>
                             <constraint firstItem="PmU-pG-7g4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KI5-X9-Wf3"/>
-                            <constraint firstItem="EPF-9c-bqH" firstAttribute="centerX" secondItem="TDf-D8-m6K" secondAttribute="centerX" id="T4a-dC-Bav"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EPF-9c-bqH" secondAttribute="bottom" constant="368" id="VP0-fN-ZSg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EPF-9c-bqH" secondAttribute="trailing" constant="142" id="de7-h9-SpD"/>
                             <constraint firstItem="WMw-ca-qjR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="141" id="g48-eI-5py"/>
                             <constraint firstItem="TDf-D8-m6K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kQD-Ha-PVS"/>
-                            <constraint firstItem="EPF-9c-bqH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="141" id="svd-CX-LiX"/>
                             <constraint firstItem="wcu-GC-HK1" firstAttribute="top" secondItem="WMw-ca-qjR" secondAttribute="bottom" constant="5" id="tSU-qP-9tE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
